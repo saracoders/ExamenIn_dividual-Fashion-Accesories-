@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+$red:#E48080;
+$black:black;
+$white:white;
+
+
+
+$kausha:'Kaushan Script', cursive;
+
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	font-weight:700;
+}
+
+@mixin boxcenter{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin bg-hero {
+	width:100%;
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
